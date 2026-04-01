@@ -40,6 +40,34 @@ Predict whether a loan applicant is likely to default using Logistic Regression 
 ### Tools Used:
 Python 3.10, pandas, matplotlib, seaborn, scikit-learn
 
+## Task 3: Customer Churn Prediction (Bank Customers)
+
+### Objective:
+Identify customers who are likely to leave the bank based on their profile and banking behavior.
+
+### Dataset:
+Churn Modelling Dataset (Kaggle) - 10,000 bank customers with 11 features.
+
+### Approach:
+- Loaded and explored the Churn Modelling Dataset
+- Cleaned data by removing unnecessary columns (RowNumber, CustomerId, Surname)
+- Encoded categorical features (Geography using One-Hot Encoding, Gender using Label Encoding)
+- Visualized churn patterns by Geography, Gender, Age, Balance, Products, and Active Status
+- Trained three models: Logistic Regression, Decision Tree, and Random Forest
+- Compared all models using accuracy and confusion matrix
+- Analyzed feature importance to understand what influences churn
+
+### Key Results:
+- Germany has the highest churn rate among all countries
+- Female customers churn more than male customers
+- Older customers (age 40-60) are more likely to churn
+- Inactive members have higher churn rates
+- Age is the most important predictor of churn
+- Random Forest achieved the best accuracy among all models
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
+
 ## Task 4: Predicting Insurance Claim Amounts
 
 ### Objective:
@@ -60,3 +88,37 @@ Estimate medical insurance charges based on personal data using Linear Regressio
 
 ### Tools Used:
 Python 3.10, pandas, matplotlib, seaborn, scikit-learn
+
+## Task 5: Personal Loan Acceptance Prediction
+
+### Objective:
+Predict which customers are likely to accept a personal loan offer based on their demographic and financial profile.
+
+### Dataset:
+Bank Marketing Dataset (UCI Machine Learning Repository / Kaggle)
+
+### Approach:
+- Loaded and explored the Bank Marketing Dataset
+- Performed basic data exploration on features such as age, job, marital status, education, and balance
+- Visualized acceptance patterns by Age, Job Type, Marital Status, Education, and Balance
+- Encoded all categorical variables using Label Encoding
+- Trained Logistic Regression and Decision Tree classifiers
+- Compared both models using accuracy and confusion matrix
+- Analyzed feature importance to identify key predictors
+- Extracted business insights to identify which customer groups are more likely to accept the offer
+
+### Key Results:
+- Students and retired customers have the highest acceptance rates
+- Younger (18-30) and senior (60+) age groups show higher acceptance
+- Single customers accept more than married ones
+- Customers with higher bank balance are more likely to accept
+- Duration of last contact is the most important feature for prediction
+
+### Business Recommendations:
+- Focus marketing campaigns on students and retired individuals
+- Target younger and senior age demographics
+- Prioritize customers with higher bank balances
+- Consider special offers for single customers
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
