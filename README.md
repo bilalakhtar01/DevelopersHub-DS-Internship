@@ -20,6 +20,26 @@ Understand how to read, summarize, and visualize a dataset using the Iris Datase
 ### Tools Used:
 Python 3.10, pandas, matplotlib, seaborn
 
+## Task 2: Credit Risk Prediction
+
+### Objective:
+Predict whether a loan applicant is likely to default using Logistic Regression and Decision Tree.
+
+### Approach:
+- Loaded and explored the Loan Prediction Dataset
+- Handled missing values (mode for categorical, median for numerical)
+- Visualized key features: income, education, credit history, loan amount
+- Trained Logistic Regression and Decision Tree classifiers
+- Evaluated using accuracy and confusion matrix
+
+### Key Results:
+- Credit History is the #1 factor for loan approval
+- Married applicants and graduates have higher approval rates
+- Both models achieved good accuracy
+
+### Tools Used:
+Python 3.10, pandas, matplotlib, seaborn, scikit-learn
+
 ## Task 4: Predicting Insurance Claim Amounts
 
 ### Objective:
