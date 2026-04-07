@@ -177,6 +177,32 @@ Cluster customers based on spending habits and propose marketing strategies for 
 ### Tools Used:
 Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
 
+## Advanced Task 4: Loan Default Risk with Business Cost Optimization
+
+### Objective:
+Predict loan default likelihood and optimize decision threshold based on cost-benefit analysis.
+
+### Dataset:
+UCI Credit Card Default Dataset (30,000 customers)
+
+### Approach:
+- Loaded and explored UCI Credit Card dataset
+- Performed EDA on age, education, credit limit, payment history
+- Trained Logistic Regression and CatBoost models
+- Evaluated using Confusion Matrix, F1-Score, ROC-AUC
+- Defined business costs: FN=$5000, FP=$500
+- Optimized decision threshold to minimize total business cost
+- Implemented 4-level customer risk scoring system
+
+### Key Results:
+- CatBoost outperformed Logistic Regression on all metrics
+- Threshold optimization significantly reduced business costs
+- PAY_0 (recent payment status) is the most important feature
+- Risk scoring successfully categorized customers into risk levels
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn, catboost
+
 ## Advanced Task 5: Interactive Business Dashboard in Streamlit
 
 ### Objective:
