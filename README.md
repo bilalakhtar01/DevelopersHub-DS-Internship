@@ -123,6 +123,30 @@ Bank Marketing Dataset (UCI Machine Learning Repository / Kaggle)
 ### Tools Used:
 Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
 
+## Advanced Task 1: Term Deposit Subscription Prediction
+
+### Objective:
+Predict whether a bank customer will subscribe to a term deposit based on marketing campaign data.
+
+### Approach:
+- Loaded and explored the Bank Marketing Dataset
+- Performed detailed EDA on age, job, balance, duration, and other features
+- Encoded all categorical variables using Label Encoding
+- Scaled features using StandardScaler
+- Trained Logistic Regression and Random Forest models
+- Evaluated using Confusion Matrix, F1-Score, and ROC Curve
+- Used SHAP (TreeExplainer) to explain 5 individual predictions
+- Created SHAP Summary Plot, Bar Plot, and Waterfall Plot
+
+### Key Results:
+- Random Forest outperformed Logistic Regression on all metrics
+- Call Duration is the #1 predictor of subscription
+- SHAP analysis confirmed duration, balance, and age as top features
+- Model achieved strong ROC-AUC score indicating good discrimination
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn, shap
+
 ## Advanced Task 2: Customer Segmentation Using Unsupervised Learning
 
 ### Objective:
