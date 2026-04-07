@@ -122,3 +122,33 @@ Bank Marketing Dataset (UCI Machine Learning Repository / Kaggle)
 
 ### Tools Used:
 Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
+
+## Advanced Task 2: Customer Segmentation Using Unsupervised Learning
+
+### Objective:
+Cluster customers based on spending habits and propose marketing strategies for each segment.
+
+### Approach:
+- Loaded and explored the Mall Customers Dataset (200 customers)
+- Performed EDA on age, income, and spending score
+- Applied StandardScaler for feature scaling
+- Used Elbow Method and Silhouette Score to find optimal K=5
+- Applied K-Means Clustering to identify 5 distinct customer segments
+- Used PCA for dimensionality reduction and cluster visualization
+- Proposed tailored marketing strategies for each segment
+
+### Key Results:
+- 5 distinct customer segments identified
+- Cluster 3 (High Income, High Spending) is the most valuable target segment
+- PCA confirmed clear separation between clusters
+- Female customers slightly outnumber male customers
+
+### Marketing Strategies:
+- Cluster 0 (Medium/Medium): Loyalty Programs
+- Cluster 1 (High Income/Low Spending): Premium Product Marketing
+- Cluster 2 (Low Income/High Spending): Flash Sales
+- Cluster 3 (High/High): VIP Treatment - TOP PRIORITY
+- Cluster 4 (Low/Low): Budget-Friendly Promotions
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
