@@ -176,3 +176,33 @@ Cluster customers based on spending habits and propose marketing strategies for 
 
 ### Tools Used:
 Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
+
+## Advanced Task 5: Interactive Business Dashboard in Streamlit
+
+### Objective:
+Develop an interactive dashboard for analyzing sales, profit, and segment-wise performance.
+
+### Dataset:
+Global Superstore Dataset (Kaggle)
+
+### Features Built:
+- Interactive sidebar filters (Region, Category, Sub-Category, Year)
+- KPI Cards (Total Sales, Profit, Orders, Customers)
+- Sales by Category chart
+- Profit by Region chart
+- Top 5 Customers by Sales
+- Sales by Segment pie chart
+- Yearly Sales and Profit trend
+- Sub-Category performance table
+
+### Key Results:
+- Technology category generates highest revenue
+- Consumer segment has most orders
+- Some sub-categories (Tables, Bookcases) are loss-making
+- Clear upward sales trend visible over years
+
+### How to Run Dashboard:
+streamlit run Task5_Dashboard.py
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, streamlit
