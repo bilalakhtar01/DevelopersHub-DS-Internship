@@ -177,6 +177,33 @@ Cluster customers based on spending habits and propose marketing strategies for 
 ### Tools Used:
 Python 3.10, pandas, numpy, matplotlib, seaborn, scikit-learn
 
+## Advanced Task 3: Energy Consumption Time Series Forecasting
+
+### Objective:
+Forecast short-term household energy usage using historical time-based patterns.
+
+### Dataset:
+Household Power Consumption Dataset (UCI) - 2 million minute-level records
+
+### Approach:
+- Loaded and parsed datetime from the dataset
+- Resampled minute-level data to daily averages
+- Performed EDA on monthly and weekly consumption patterns
+- Engineered 11 time-based features (lag, rolling averages, calendar features)
+- Trained and compared 3 models: ARIMA, Prophet, XGBoost
+- Evaluated using MAE and RMSE metrics
+- Plotted actual vs forecasted consumption for all models
+
+### Key Results:
+- XGBoost achieved best performance with engineered features
+- Prophet handled yearly and weekly seasonality well
+- ARIMA provided good baseline performance
+- Winter months show highest energy consumption
+- Lag features (previous day/week) are most predictive
+
+### Tools Used:
+Python 3.10, pandas, numpy, matplotlib, seaborn, statsmodels, prophet, xgboost
+
 ## Advanced Task 4: Loan Default Risk with Business Cost Optimization
 
 ### Objective:
